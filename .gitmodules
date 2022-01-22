@@ -1,0 +1,3 @@
+[submodule "TSEthersHardhatBoilerplate"]
+	path = TSEthersHardhatBoilerplate
+	url = https://github.com/DTIV/socialweb.git
