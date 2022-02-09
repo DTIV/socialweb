@@ -12,4 +12,4 @@ This blockchain explorer application is built with react and utilizes the CyberC
 
 #### View Live Site:
 
-{% embed url="https://dazzling-bohr-4e434c.netlify.app" %}
+{% embed url="https://cranky-bose-ca3476.netlify.app" %}
