@@ -1,15 +1,15 @@
-# Basic Sample Hardhat Project
+---
+description: A Social Blockchain Explorer
+---
 
-This project demonstrates a basic Hardhat use case. It comes with a sample contract, a test for that contract, a sample script that deploys that contract, and an example of a task implementation, which simply lists the available accounts.
+# SocialWeb
 
-Try running some of the following tasks:
+This is my submission for Gitcoin's [Schelling Point Virtual Hackathon](https://gitcoin.co/hackathon/schellingpoint)
 
-```shell
-npx hardhat accounts
-npx hardhat compile
-npx hardhat clean
-npx hardhat test
-npx hardhat node
-node scripts/sample-script.js
-npx hardhat help
-```
+[**Task 2 - Great CyberConnected DApp**](https://gitcoin.co/issue/cyberconnecthq/explorer-and-cyberconnected-dapps/2/100027518)&#x20;
+
+This blockchain explorer application is built with react and utilizes the CyberConnect GraphQL API to create a social experience. It features prominent recommended profiles, and users can search for different address profile's to view followers, followings and account information.  Create Posts, Follow and Send tips directly to your friends!
+
+#### View Live Site:
+
+{% embed url="https://dazzling-bohr-4e434c.netlify.app" %}
