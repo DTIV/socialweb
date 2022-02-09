@@ -1,0 +1,129 @@
+.explorer-wrap,
+.social-wrap{
+    /* border: green solid 1px; */
+    display: grid;
+    grid-template-columns: 1fr;
+    align-content: center;
+    justify-content: center;
+    margin-top: 2rem;
+}
+
+.explorer-card, .social-card{
+    width: 90%;
+    border: solid black 1px;
+    margin: auto;
+    border-radius: var(---brad);
+    padding: 1rem;
+    background-color: var(---bg-el1);
+}
+
+.social-card{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.av-thumb{
+    width: 100px;
+}
+.e-address{
+    font-size: 1.3rem;
+    min-width: 350px;
+    font-weight: 500;
+}
+
+.e-ens{
+    font-size: 3rem;
+    font-weight: 500;
+}
+.ex-nav{
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    grid-gap: 1rem;
+    word-break: break-all;
+    word-wrap: break-word;
+}
+
+.e-socials{
+    display: flex;
+    gap: 1rem;
+    
+}
+
+.top-stats{
+    background-color: var(---bg-el3);
+}
+.transaction-table{
+    display: grid;
+    
+    padding:1rem;
+    border-radius: var(---brad);
+    grid-gap: 1rem;
+}
+
+.transaction-row{
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 1fr 0.3fr;
+    grid-gap: 1rem;
+    font-size: 1 rem;
+    text-align: center;
+}
+
+.tx-header{
+    border: solid black 1px;
+    background-color: var(---bg-el3);
+    padding: 1rem;
+    border-radius: var(---brad);
+    font-size: 1.5rem;
+    font-weight: 600;
+}
+
+.balance, .tx-count{
+    font-size: 2rem;
+}
+
+.top-stats{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+    border: solid black 1px;
+    border-radius: var(---brad);
+    padding: 1rem;
+    margin: 1rem 0;
+}
+
+.top-title{
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+
+
+.page-btn{
+    margin: auto;
+    width: 100%;
+    width: 80%;
+}
+
+.social-addr{
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.single-addr{
+    padding: 0.2rem 0;
+}
+
+.single-addr:hover{
+    background-color: var(---bg-el9);
+}
+
+.page-wrap{
+    margin: 1rem 0;
+    display: grid;
+    grid-gap: 1rem;
+}
+
+.top-title{
+    text-align: center;
+    margin: 1rem 0;
+}
